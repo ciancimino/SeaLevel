@@ -99,7 +99,7 @@ footer {
 }
 
 #instagram-wrapper {
-  width: 61.25em; /* 980px converted to em */
+  width: 61.25em;  /* 980px converted to em */
   margin: auto;
   display: flex;
   flex-direction: column; /* Arrange children vertically */
