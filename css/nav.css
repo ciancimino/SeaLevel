@@ -1,0 +1,81 @@
+.icon, .active {
+    display: none;
+}
+
+.topnav {
+    background-color: #D6AB42;
+    text-align: center;
+    line-height: 80px;
+}
+
+.topnav #myLinks a {
+    text-transform: uppercase;
+    margin: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #002E4A;
+}
+
+@media (max-width: 499px) {
+
+/* Style the navigation menu */
+.topnav {
+overflow: hidden;
+background-color:#92C2DE;
+position: relative;
+line-height: 20px;
+text-align: left;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+color:  #002E4A;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+display: block;
+}
+
+.topnav #myLinks a {
+text-transform: uppercase;
+margin: 0px;
+font-size: 20px;
+text-decoration: none;
+font-weight: bold;
+color: #002E4A;
+}
+
+
+/* Style the hamburger menu */
+.topnav a.icon {
+background: whitesmoke;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+background-color:#D6AB42;
+color:  whitesmoke;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+background-color:  #D6AB42;
+color: whitesmoke;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+}
+
+
