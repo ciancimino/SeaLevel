@@ -27,8 +27,7 @@
                 <img src="images/slblogo1.png" alt="Company Logo">
             </div>
             <!-- end footer-nav-big --> 
-        <!-- </div>
-        end footer-nav  -->
+  
     </footer>
 </body>
 </html>

@@ -1,20 +1,31 @@
 <?php include('includes/header.php'); ?>
 
-<div id="wrapper">
-    <div id="row">
-        <div id="left-two">
-            <h1>Welcome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur? Explicabo, vel doloribus similique sequi dolores possimus ab ratione. Vero voluptatibus saepe beatae. Sit consequatur earum optio, eaque voluptatum excepturi. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
-                <button onclick="window.location.href=''">Come have a look <br>at our portfolio</button>
+<div class="main-wrapper">
+
+    <div class="main-row">
+
+
+        <div class="main-textbox">
+            <h1 class="main-header">Welcome</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur? Explicabo, vel doloribus similique sequi dolores possimus ab ratione. Vero voluptatibus saepe beatae. Sit consequatur earum optio, eaque voluptatum excepturi. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <button class="big-button" onclick="window.location.href='portfolio.php'">Come have a look <br>at our portfolio</button>
         </div>
-        <!-- end left two -->
-        <div id="left-two">
-            <img src="images/exampleimage.png" alt="example" class="twoimage">
+        <!-- end main-text -->
+
+
+        <div class="main-image">
+            <img src="images/exampleimage.png" alt="example">
         </div>
-        <!-- end left two -->
+        <!-- end main-image -->
+
+
+
     </div>
-    <!-- end row -->
+    <!-- end main-row -->
+
 </div>
-<!-- end wrapper -->
+
 
 <?php include('includes/footer.php'); ?>
