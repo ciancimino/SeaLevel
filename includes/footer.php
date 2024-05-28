@@ -24,7 +24,7 @@
             </div>
             <!-- end footer-nav-small --> 
             <div class="footer-nav-big">
-                <img src="images/logo1.svg" alt="Company Logo">
+                <img src="images/slblogo1.png" alt="Company Logo">
             </div>
             <!-- end footer-nav-big --> 
         <!-- </div>
