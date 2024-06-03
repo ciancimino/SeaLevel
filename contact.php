@@ -14,69 +14,59 @@ $phone_err = '';
 $message = '';
 $message_err = '';
 
-if($_SERVER['REQUEST_METHOD'] == "POST") {
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
-    if(empty($_POST['name'])) {
+    // Validate name
+    if (empty($_POST['name'])) {
         $name_err = 'Please fill out your name';
     } else {
         $name = $_POST['name'];
     }
 
-    if(empty($_POST['email'])) {
+    // Validate email
+    if (empty($_POST['email'])) {
         $email_err = 'Please fill out your email';
     } else {
         $email = $_POST['email'];
     }
 
-    if(empty($_POST['phone'])) { // if empty, type in your number
-        $phone_err = 'Your phone number please!';
-        } elseif(array_key_exists('phone', $_POST)){
-        if(!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone']))
-        { // if you are not typing the requested format of xxx-xxx-xxxx, display Invalid format
-        $phone_err = 'Invalid format! 000-000-0000';
-        } else{
+    // Validate phone
+    if (empty($_POST['phone'])) {
+        $phone_err = 'Please fill out your email';
+    } else {
         $phone = $_POST['phone'];
-        } // end else
-        } // end main if
+    }
 
-    if(empty($_POST['message'])) {
+    // Validate message
+    if (empty($_POST['message'])) {
         $message_err = 'Please fill your message';
     } else {
         $message = $_POST['message'];
     }
 
-
-
-    if(isset($_POST['name'],
-        $_POST['email'],
-        $_POST['phone'],
-        $_POST['message']
-    )) {
+    // Check if all required fields are filled
+    if (isset($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['message'])) {
         $to = 'alexandranciancimino@gmail.com';
-        $subject = 'Test email on '.date('m/d/y, h i A');
+        $subject = 'Test email on ' . date('m/d/y, h i A');
         $body = '
-        Name: '.$name.' '.PHP_EOL.'
-        Email: '.$email.' '.PHP_EOL.'
-        Phone: '.$phone.' '.PHP_EOL.'
-        Message: '.$message.' '.PHP_EOL.'
+        Name: ' . $name . ' ' . PHP_EOL . '
+        Email: ' . $email . ' ' . PHP_EOL . '
+        Phone: ' . $phone . ' ' . PHP_EOL . '
+        Message: ' . $message . ' ' . PHP_EOL . '
         ';
 
         $header = array(
             'From' => 'noreply@sealevelbuilders.com'
         );
 
-        if(!empty(
-            $name &&
-            $email &&
-            $phone && 
-            $message) &&
-        preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
+        if (!empty($name) && !empty($email) && !empty($phone) && !empty($message)) {
             mail($to, $subject, $body, $header);
-            header ('Location:thanks.php');
+            header('Location: thanks.php');
         }
     }
     // end isset
 }
+
 
 ?>
 
