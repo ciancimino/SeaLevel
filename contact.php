@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     // Validate phone
     if (empty($_POST['phone'])) {
-        $phone_err = 'Please fill out your email';
+        $phone_err = 'Please fill out your phone number';
     } else {
         $phone = $_POST['phone'];
     }
