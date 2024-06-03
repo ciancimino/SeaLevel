@@ -59,8 +59,28 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             'From' => 'noreply@sealevelbuilders.com'
         );
 
+        // Send email to the recipient
         if (!empty($name) && !empty($email) && !empty($phone) && !empty($message)) {
             mail($to, $subject, $body, $header);
+
+            // Send confirmation email to the user
+            $user_subject = 'Thank you for your submission';
+            $user_body = 'Dear ' . $name . ',' . PHP_EOL . PHP_EOL .
+                         'Thank you for contacting us. Here is a copy of your message:' . PHP_EOL . PHP_EOL .
+                         'Name: ' . $name . PHP_EOL .
+                         'Email: ' . $email . PHP_EOL .
+                         'Phone: ' . $phone . PHP_EOL .
+                         'Message: ' . $message . PHP_EOL . PHP_EOL .
+                         'We will get back to you shortly.' . PHP_EOL . PHP_EOL .
+                         'Best regards,' . PHP_EOL .
+                         'Your Company Name';
+
+            $user_header = array(
+                'From' => 'noreply@sealevelbuilders.com'
+            );
+
+            mail($email, $user_subject, $user_body, $user_header);
+
             header('Location: thanks.php');
         }
     }
