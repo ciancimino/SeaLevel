@@ -8,7 +8,11 @@
     <div class="main-textbox">
             <h1>Thank You</h1>
 
-            <p>Thank you for contacting us. We will respond to your email within a few business days. You'll receive a copy of your email. We look forwarding to speaking with you soon!</p>
+            <p>Thank you for contacting us.</p>
+                
+            <p>We will respond to your email within a few business days. We look forwarding to speaking with you soon!</p>
+
+            <p>You'll receive a copy of your email. If you did not receive a copy of your inquiry yet, please check your spam folder.</p>
 
             
            
