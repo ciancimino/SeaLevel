@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                          'Message: ' . $message . PHP_EOL . PHP_EOL .
                          'We will get back to you shortly.' . PHP_EOL . PHP_EOL .
                          'Best regards,' . PHP_EOL .
-                         'Your Company Name';
+                         'Sea Level Builders';
 
             $user_header = array(
                 'From' => 'noreply@sealevelbuilders.com'
