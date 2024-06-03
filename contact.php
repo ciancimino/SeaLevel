@@ -124,7 +124,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
             <button class="small-button" type="submit">Submit</button>
 
-            </form> `
+            </form> 
            
         </div>
         <!-- end main-text -->
