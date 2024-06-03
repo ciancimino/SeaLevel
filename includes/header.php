@@ -18,6 +18,7 @@
         <img src="images/slblogo2.png" alt="Company Logo" class="logo">
     </header>
     <div class="topnav">
+      <div class="topnav-wrapper">
         <p class="active">Menu</p>
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
@@ -28,11 +29,15 @@
           <a href="contact.php">Contact</a>
           <a href="careers.php">Careers</a>
         </div>
+        <!-- end active -->
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
+      <!-- end top nav wrapper -->
+    </div>
+    <!-- end top nav -->
 
       <script>
             function myFunction() {
@@ -44,4 +49,5 @@
         }
         }
       </script>
+      <!-- end dropdown script -->
 

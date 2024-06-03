@@ -56,12 +56,21 @@ justify-content: center;
 align-items: center;
 background-color: #D6AB42;
 height: 80px;
+padding-top: 10px;
 }
+
+.topnav-wrapper {
+ border-bottom: #002E4A 2px solid;
+ height: 45px;
+ width: 820px;
+  }
 
 #myLinks {
 background-color: #D6AB42;
 padding-bottom: 10px;
-border-bottom: 1.5px #002E4A solid;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -147,39 +156,179 @@ font-weight: bold;
 
 /* ////////////////////////////////////////////////////////////////////////////////////////
 
-        /* INSTAGRAM NEED TO DO !!!! */
+/* CONTACT FORM DONE !!!! */
 
-        #instagram-wrapper {
-          max-width: 61.25em;  /* 980px converted to em */
-          margin: auto;
+.contact-form {
+background-color: #D6AB42;
+border-radius: 0.5em; /* 8px converted to em */
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+#contact-number {
+color: #0071B5;
+}
+
+.contact-form input,
+.contact-form textarea {
+border: none;
+width: 360px;
+font-family: 'Roboto Condensed', sans-serif;
+color: #002E4A;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 5px;
+padding: 8px;
+}
+
+.contact-form textarea {
+height: 80px;
+resize: none;
+margin-bottom: 10px;
+}
+
+          .contact-form span, label {
           display: flex;
-          flex-direction: column; /* Arrange children vertically */
-        }
-
-        #instagram-title {
-          background-color: #0071B5;
+          flex-direction: column;
           align-items: center;
-          height: 80px;
-          display: flex;
-          flex-direction: column; /* Arrange children vertically */
-          justify-content: center;
-        }
+          font-size: 1.2em;
+          margin-top: 10px;
+          }
 
-        #instagram-title h2 {
-          border-bottom: 1px solid #92C2DE;
-          background-color: #0071B5;
-          text-transform: uppercase;
-          text-align: center;
-          color: #92C2DE;
-          width: 240px;
-          padding-bottom: 5px;
-        }
+          .contact-form span {
+            text-transform: uppercase;
+            color: red;
+            font-size: .8em;
+            margin-bottom: 10px;
+            margin-top: 3px !important;
+          }
 
-        #instagram-row {
-          height: 350px;
-          border: 1px solid red;
-          margin: 20px;
-        }
+          .contact-form p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: .8em !important; 
+            margin-bottom: 10px !important;
+          }
+
+@media screen and (max-width: 520px) {
+
+.contact-form {
+  width: 90%;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 200px !important;
+font-size: 1.2em;
+height: 35px;
+}
+
+.contact-form textarea {
+height: 150px;
+}
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////
+
+/* PORTFOLIO DONE !!!! */
+
+.portfolio-text {
+max-width: 940px;
+margin: auto;
+text-align: justify;
+}
+
+.portfolio-text p {
+padding: 20px;
+}
+
+.main-wrapper h1 {
+max-width: 980px;
+border-bottom: #0071B5 2px solid;
+text-transform: uppercase;
+color: #0071B5;
+margin-right: 20px;
+margin-left: 20px;
+text-align: center;
+}
+
+.port-image {
+position: relative;
+display: flex; /* To make flex properties effective */
+flex: 1;
+margin-left: 20px;
+margin-right: 20px;
+padding-bottom: 20px;
+}
+
+.port-image img {
+display: block;
+max-width: 100%;
+width: 900px;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.overlay h2 {
+margin: 0;
+font-size: 2.5em; 
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+text-transform: uppercase;
+}
+
+        
+
+  
+
+/* ////////////////////////////////////////////////////////////////////////////////////////
+
+/* INSTAGRAM DONE !!!! */
+
+#instagram-wrapper {
+max-width: 61.25em;  /* 980px converted to em */
+margin: auto;
+display: flex;
+flex-direction: column; /* Arrange children vertically */
+}
+
+#instagram-title {
+background-color: #0071B5;
+align-items: center;
+height: 80px;
+display: flex;
+flex-direction: column; /* Arrange children vertically */
+justify-content: center;
+}
+
+#instagram-title h2 {
+border-bottom: 1px solid #92C2DE;
+background-color: #0071B5;
+text-transform: uppercase;
+text-align: center;
+color: #92C2DE;
+width: 240px;
+padding-bottom: 5px;
+}
+
+#instagram-row {
+height: 100%;
+margin: 20px;
+}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////
 
@@ -343,6 +492,10 @@ font-weight: bold;
 color: #002E4A;
 }
 
+.big-button:hover {
+  color: #ffffff;
+}
+
 .small-button {
 background-color: #D6AB42;
 border: none;
@@ -355,6 +508,10 @@ font-size: 20px;
 font-family: 'Roboto Condensed', sans-serif;
 font-weight: bold;
 color: #002E4A;
+}
+
+.small-button:hover {
+  color: #ffffff;
 }
 
 .main-image {
@@ -423,6 +580,10 @@ font-weight: bold;
 color: #002E4A;
 }
 
+.big-button:hover {
+  color: #ffffff;
+}
+
 .small-button {
 background-color:#D6AB42;
 border: none;
@@ -435,6 +596,10 @@ font-size: 20px;
 font-family: 'Roboto Condensed', sans-serif;
 font-weight: bold;
 color: #002E4A;
+}
+
+.small-button:hover {
+  color: #ffffff;
 }
 
 .main-image {
@@ -451,22 +616,3 @@ width: 900px;
 
 }
 
-/* ////////////////////////////////////////////////////////////////////////////////////////
-
-/* MEDIA QUIERY */ 
-
-/* Background color for screens less than 500px */
-@media (max-width: 499px) {
-  body {
-      background-color: lightblue;
-  }
-
-}
-
-/* Background color for screens between 500px and 810px */
-@media (min-width: 500px) and (max-width: 810px) {
-  body {
-      background-color: rgb(194, 194, 194);
-  }
-
-}

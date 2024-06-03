@@ -1,5 +1,12 @@
 <?php include('includes/header.php'); ?>
 
-<!-- Your main content here -->
+<div class="main-wrapper">
+
+    <div class="main-row">
+
+    </div>
+    <!-- end main-row -->
+
+</div>
 
 <?php include('includes/footer.php'); ?>

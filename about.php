@@ -6,7 +6,7 @@
 
 
         <div class="main-textbox">
-            <h1 class="main-header">About Us</h1>
+            <h1>About Us</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur? Explicabo, vel doloribus similique sequi dolores possimus ab ratione. Vero voluptatibus saepe beatae. Sit consequatur earum optio, eaque voluptatum excepturi. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 

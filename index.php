@@ -4,9 +4,8 @@
 
     <div class="main-row">
 
-
         <div class="main-textbox">
-            <h1 class="main-header">Welcome</h1>
+            <h1>Welcome</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur? Explicabo, vel doloribus similique sequi dolores possimus ab ratione. Vero voluptatibus saepe beatae. Sit consequatur earum optio, eaque voluptatum excepturi. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
@@ -19,8 +18,6 @@
             <img src="images/exampleimage.png" alt="example">
         </div>
         <!-- end main-image -->
-
-
 
     </div>
     <!-- end main-row -->

@@ -4,7 +4,8 @@
         </div>
          <!-- end instagram title -->
         <div id="instagram-row">
-            <p>!!!!INSTAGRAM FEED GOES HERE!!!!</p>
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-dc0e8e61-9c89-4f34-9f12-fad7c3af36f8" data-elfsight-app-lazy></div>
         </div>
         <!-- end row -->
     </div>
