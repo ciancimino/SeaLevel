@@ -18,7 +18,7 @@
 
 
         <div class="main-image">
-            <img src="images/aboutusworkers.png" alt="example">
+            <img src="images/aboutpage.png" alt="construction worker">
         </div>
         <!-- end main-image -->
 

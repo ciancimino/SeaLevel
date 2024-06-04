@@ -15,7 +15,7 @@
 
 
         <div class="main-image">
-            <img src="images/exampleimage.png" alt="example">
+            <img src="images/homepage.png" alt="blue house">
         </div>
         <!-- end main-image -->
 

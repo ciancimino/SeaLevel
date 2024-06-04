@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
         <div class="main-image">
-            <img src="images/exampleimage.png" alt="example">
+            <img src="images/contactpage.png" alt="person holding cellphone">
         </div>
         <!-- end main-image -->
 

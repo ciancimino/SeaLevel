@@ -16,7 +16,7 @@
         <!-- end main-text -->
 
         <div class="main-image">
-            <img src="images/aboutusworkers.png" alt="example">
+            <img src="images/careerspage.png" alt="resume on desk">
         </div>
         <!-- end main-image -->
 
