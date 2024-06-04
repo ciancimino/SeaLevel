@@ -235,6 +235,31 @@ height: 150px;
 
 /* ////////////////////////////////////////////////////////////////////////////////////////
 
+/* TESTIMONIALS DONE !!!! */
+
+blockquote {
+  margin: 20px;
+  text-align: left;
+  font-size: 30px;
+  line-height: 35px;
+  border-left: #D6AB42 8px solid;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 520px) {
+
+blockquote {
+  margin: 20px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 25px;
+  border-left: #D6AB42 8px solid;
+  padding-left: 10px;
+}
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////
+
 /* PORTFOLIO DONE !!!! */
 
 .portfolio-text {
@@ -246,6 +271,14 @@ text-align: justify;
 .portfolio-text p {
 padding: 20px;
 }
+
+.portfolio-text a {
+  color: #0071B5;
+  }
+
+  .portfolio-text a:hover {
+    color: #D6AB42;
+    }
 
 .main-wrapper h1 {
 max-width: 980px;
