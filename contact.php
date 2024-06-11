@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <div class="main-textbox">
             <h1>Contact Us</h1>
 
-            <p >Call us: <a id="contact-number" href="tel:+1234567890">+1 (234) 567-8900</a> <br> or send us an email below!</p>
+            <p >Call us: <a id="contact-number" href="tel:+12508860221">+1 250 886 0221</a> <br> or send us an email below!</p>
 
             <div class="contact-form">
                 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ;?>" method="post">

@@ -559,6 +559,17 @@ max-width: 100%;
 width: 900px;
 }
 
+.main-aboutimage {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .main-aboutimage img {
+  max-width: 100%;
+  width: 900px;
+  }
+
 }
 
 @media (max-width: 810px) {
@@ -636,14 +647,14 @@ color: #002E4A;
   color: #ffffff;
 }
 
-.main-image {
+.main-image, .main-aboutimage {
 flex: 1;
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 20px;
 }
 
-.main-image img {
+.main-image img, .main-aboutimage img {
 max-width: 100%;
 width: 900px;
 }
