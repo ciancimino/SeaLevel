@@ -1,6 +1,6 @@
     <div id="instagram-wrapper">
         <div id="instagram-title">
-        <h2>Instagram Posts</h2>
+        <h2>Follow Us On Instagram</h2>
         </div>
          <!-- end instagram title -->
         <div id="instagram-row">

@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     // Check if all required fields are filled
     if (isset($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['message'])) {
-        $to = 'alexandranciancimino@gmail.com';
+        $to = 'sealevelbuildersltd@gmail.com';
         $subject = 'Test email on ' . date('m/d/y, h i A');
         $body = '
         Name: ' . $name . ' ' . PHP_EOL . '

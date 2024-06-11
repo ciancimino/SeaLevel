@@ -7,13 +7,13 @@
 
     <div class="main-textbox">
     <blockquote>"Bill from Sea Level Builders did an outstanding job on our renovation. He added beautiful floating shelves that transformed our living space and designed custom cabinets specifically for our vinyl collection. His attention to detail and craftsmanship exceeded our expectations. We couldn't be happier with the results!"</blockquote>
-    <p>Homeowner, NAME</p>
+    <p>Homeowner, Carolyn G</p>
     </div> 
     <!-- end main-textbox -->
 
     <div class="main-textbox">
     <blockquote>"Jesse from Sea Level Builders went above and beyond during our project. He wasn't even hired to do it, but he took the time to remove a stubborn tree stump from our front yard. His willingness to help and dedication to customer satisfaction truly set him apart. We're incredibly grateful for his hard work and kindness!"</blockquote>
-    <p>Homeowner, NAME</p>
+    <p>Homeowner, Sarena S.</p>
     </div> 
     <!-- end main-textbox -->
 
