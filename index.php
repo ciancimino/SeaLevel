@@ -19,7 +19,7 @@
 
 
         <div class="main-image">
-            <img src="images/homepage.png" alt="blue house">
+            <img src="images/homepage.jpg" alt="victoria canada house">
         </div>
         <!-- end main-image -->
 

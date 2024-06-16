@@ -10,7 +10,7 @@
     <div class="main-row">
 
         <div class="port-image">
-            <img src="images/vertdoor.png" alt="example">
+            <img src="images/vertdoor.jpg" alt="example">
             <div class="overlay">
                 <h2>Doors</h2>
             </div>
@@ -20,7 +20,7 @@
 
 
         <div class="port-image">
-            <img src="images/vertshed.png" alt="example">
+            <img src="images/vertshed.jpg" alt="example">
             <div class="overlay">
                 <h2>Sheds</h2>
             </div>
@@ -34,7 +34,7 @@
     <div class="main-row">
 
         <div class="port-image">
-            <img src="images/landrailing.png" alt="example">
+            <img src="images/landrailing.jpg" alt="example">
             <div class="overlay">
                 <h2>Railings</h2>
             </div>
@@ -44,7 +44,7 @@
 
 
         <div class="port-image">
-            <img src="images/landbuiltin.png" alt="example">
+            <img src="images/landbuiltin.jpg" alt="example">
             <div class="overlay">
                 <h2>Built In's</h2>
             </div>
@@ -58,7 +58,7 @@
     <div class="main-row">
 
         <div class="port-image">
-            <img src="images/vertsignday.png" alt="example">
+            <img src="images/vertsignday.jpg" alt="example">
             <div class="overlay">
                 <h2>Signs</h2>
             </div>
@@ -68,7 +68,7 @@
 
 
         <div class="port-image">
-            <img src="images/vertsignnight.png" alt="example">
+            <img src="images/vertsignnight.jpg" alt="example">
             <div class="overlay">
                 <h2>Lights</h2>
             </div>
@@ -82,7 +82,7 @@
       <div class="main-row">
 
         <div class="port-image">
-            <img src="images/landfence.png" alt="example">
+            <img src="images/landfence.jpg" alt="example">
             <div class="overlay">
                 <h2>Fences</h2>
             </div>
@@ -92,7 +92,7 @@
 
 
         <div class="port-image">
-            <img src="images/landwhitedeck.png" alt="example">
+            <img src="images/landwhitedeck.jpg" alt="example">
             <div class="overlay">
                 <h2>Decks</h2>
             </div>
@@ -106,7 +106,7 @@
     <div class="main-row">
 
         <div class="port-image">
-            <img src="images/vertshedroof.png" alt="example">
+            <img src="images/vertshedroof.jpg" alt="example">
             <div class="overlay">
                 <h2>Roofing</h2>
             </div>
@@ -116,7 +116,7 @@
 
 
         <div class="port-image">
-            <img src="images/vertshelf.png" alt="example">
+            <img src="images/vertshelf.jpg" alt="example">
             <div class="overlay">
                 <h2>Shelves</h2>
             </div>
@@ -130,7 +130,7 @@
           <div class="main-row">
 
         <div class="port-image">
-            <img src="images/verttile.png" alt="example">
+            <img src="images/verttile.jpg" alt="example">
             <div class="overlay">
                 <h2>Tiling</h2>
             </div>
@@ -140,7 +140,7 @@
 
 
         <div class="port-image">
-            <img src="images/vertstairs.png" alt="example">
+            <img src="images/vertstairs.jpg" alt="example">
             <div class="overlay">
                 <h2>Stairs</h2>
             </div>

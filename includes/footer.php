@@ -22,6 +22,7 @@
                     <li><a href="careers.php">Careers</a></li>
                     <li>&copy; <?php echo date("Y"); ?> Sea Level Builders LTD</li>
                 </ul>
+
             </div>
             <!-- end footer-nav-small --> 
             <div class="footer-nav-big">

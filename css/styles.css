@@ -530,7 +530,7 @@ color: #002E4A;
 }
 
 .small-button {
-background-color: #D6AB42;
+background-color: #ffffff;
 border: none;
 border-radius: 0.5em; /* 8px converted to em */
 height: 2em; /* 50px converted to em */
@@ -544,10 +544,10 @@ color: #002E4A;
 }
 
 .small-button:hover {
-  color: #ffffff;
+  color: #0071B5;
 }
 
-.main-image {
+/* .main-image {
 flex: 1;
 padding-top: 100px;
 margin-left: 20px;
@@ -557,15 +557,15 @@ margin-right: 20px;
 .main-image img {
 max-width: 100%;
 width: 900px;
-}
+} */
 
-.main-aboutimage {
+.main-image {
   flex: 1;
   margin-left: 20px;
   margin-right: 20px;
   }
   
-  .main-aboutimage img {
+  .main-image img {
   max-width: 100%;
   width: 900px;
   }
@@ -647,14 +647,14 @@ color: #002E4A;
   color: #ffffff;
 }
 
-.main-image, .main-aboutimage {
+.main-image {
 flex: 1;
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 20px;
 }
 
-.main-image img, .main-aboutimage img {
+.main-image img {
 max-width: 100%;
 width: 900px;
 }

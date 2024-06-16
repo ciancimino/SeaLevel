@@ -17,7 +17,7 @@
         <!-- end main-text -->
 
 
-        <div class="main-aboutimage">
+        <div class="main-image">
             <img src="images/team.jpeg" alt="Jesse and Bill of sea level builders llc">
         </div>
         <!-- end main-image -->
